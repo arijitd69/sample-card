@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: grey;
+    /* padding: 45px; */
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.card {
+    background-color: white;
+    width: 256px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.image {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.image img {
+    padding: 3px;
+    height: auto;
+    width: 246px;
+    border-radius: 10px;
+}
+
+.capsule {
+    /* padding: 0 34px 10px 14px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+
+}
+
+.capsule span {
+    padding: 4px 15px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    font-size: 11px;
+    color: grey;
+}
+
+.para p {
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0 34px 10px 8px;
+    font-weight: 10px;
+    height: auto;
+    width: auto;
+
+}
+
+.para {
+    padding: 0 5px;
+}
+
+.heading h2 {
+    padding: 0 34px 10px 14px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.option button {
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-width: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(251, 160, 160);
+    border: none;
+}
+#alignment {
+    padding: 5px;
+}
